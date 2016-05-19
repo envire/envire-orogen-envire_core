@@ -1,4 +1,15 @@
 name "envire_core"
 version "0.1"
 
+using_library 'envire_core'
 
+# define opaques
+typekit do
+    opaque_autogen '/envire/core/EnvireGraph', :includes => "envire_core/graph/EnvireGraph.hpp"
+end
+
+
+# type exports
+typekit do
+    export_types '/envire/core/EnvireGraph'
+end
