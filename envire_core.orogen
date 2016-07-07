@@ -2,6 +2,7 @@ name "envire_core"
 version "0.1"
 
 using_library 'envire_core'
+import_types_from 'base'
 import_types_from 'envire_coreTypes.hpp'
  
 # define opaques
