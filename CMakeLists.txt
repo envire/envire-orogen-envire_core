@@ -12,3 +12,10 @@ INCLUDE(envire_coreBase)
 # FIND_PACKAGE(KDL)
 # FIND_PACKAGE(OCL)
 
+install(
+    DIRECTORY
+        ${PROJECT_SOURCE_DIR}/orogen
+    DESTINATION
+        ${CMAKE_INSTALL_PREFIX}/share
+)
+
